@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
         },
         builder: (context, controller) {
           return ListView.builder(
-            // Make sure it always can full refresh
+            // Make sure it always can pull refresh
             physics: const AlwaysScrollableScrollPhysics(
               parent: BouncingScrollPhysics(),
             ),
