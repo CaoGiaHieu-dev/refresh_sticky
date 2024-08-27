@@ -1,6 +1,6 @@
 name: refresh_sticky
 description: A Flutter package for creating a sticky refresh indicator that can be used to refresh the content of a scrollable widget.
-version: 0.1.0+1
+version: 0.1.1+1
 repository: https://github.com/CaoGiaHieu-dev/refresh_sticky.git
 
 environment:
