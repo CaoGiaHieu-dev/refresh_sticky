@@ -1,3 +1,6 @@
-## 0.0.1
+## 0.1.1+1
 
-* TODO: Describe initial release.
+* [Fix]: Update document
+## 0.1.0+1
+
+* Init package

@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
 To use the `RefreshSticky` widget, add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-    refresh_sticky: ^0.1.1
+    refresh_sticky: ^0.1.1+1
 ```
 Then run `flutter pub get` to install the dependency.
 
