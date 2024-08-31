@@ -257,7 +257,7 @@ class _RefreshStickyState extends State<RefreshSticky> {
   @override
   Widget build(BuildContext context) {
     /// Build the scrollable widget with the refresh indicator.
-    final child = <Widget>[
+    var child = <Widget>[
       /// The loading animation.
       _loading(),
 
@@ -278,7 +278,7 @@ class _RefreshStickyState extends State<RefreshSticky> {
 
     /// Reverse the order of the children if the reverse flag is set to true.
     if (widget.reverse) {
-      child.reversed.toList();
+      child = child.reversed.toList();
     }
 
     /// Build the scrollable widget.

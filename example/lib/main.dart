@@ -16,8 +16,10 @@ class MyApp extends StatelessWidget {
           title: const Text('Refresh Sticky Example'),
         ),
         body: RefreshSticky(
+          reverse: false,
           builder: (context, controller) {
             return ListView.builder(
+              reverse: false,
               physics: const AlwaysScrollableScrollPhysics(
                 parent: BouncingScrollPhysics(),
               ),
